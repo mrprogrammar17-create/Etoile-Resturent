@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-gold-light: #F5F2ED;
+  --color-gold: #C5A059;
+  --color-gold-dark: #A48243;
+  --color-gold-deep: #755C2E;
+  --color-gold-glow: rgba(197, 160, 89, 0.4);
+
+  --color-obsidian: #050505;
+  --color-charcoal: #0F0E0D;
+  --color-charcoal-light: #171614;
+}
+
+@layer utilities {
+  .glass-gold-dark {
+    background: rgba(18, 18, 18, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+  }
+
+  .glass-gold-light {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+  }
+
+  .text-gold-grad {
+    background: linear-gradient(135deg, #F5E6C4 0%, #D4AF37 50%, #8A6623 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .border-gold-grad {
+    border-image: linear-gradient(to right, #8A6623, #D4AF37, #F5E6C4) 1;
+  }
+}
+
+/* Custom Base Configurations */
+html {
+  scroll-behavior: smooth;
+  cursor: default;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A261D;
+  border-radius: 4px;
+  border: 1px solid #D4AF37;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Luxury loading line keyframe */
+@keyframes gold-shine {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.animate-gold-shine {
+  animation: gold-shine 2s infinite linear;
+}

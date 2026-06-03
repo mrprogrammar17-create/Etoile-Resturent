@@ -1,0 +1,6 @@
+{
+  "name": "L'Étoile - Fine Dining",
+  "description": "An exquisite premium restaurant website with interactive menus, online reservations, beautiful galleries, and a high-end luxury black-and-gold design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
