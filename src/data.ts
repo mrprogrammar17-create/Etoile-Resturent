@@ -8,7 +8,7 @@ export const DISHES: Dish[] = [
     description: 'Golden Oscietra caviar served on dry ice with standard blinis, crême fraîche, sieved organic egg yolk, and fine chives.',
     price: 185,
     category: 'starters',
-    image: 'https://images.unsplash.com/photo-1559742811-82410b5103a1?q=80&w=600&auto=format&fit=crop',
+    image: 'https://tse1.mm.bing.net/th/id/OIP.O662isscdQ30TSF-Rwn98wHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
     tags: ['Signature', 'Gluten-Free Option'],
     rating: 4.9,
     ingredients: ['Oscietra Caviar', 'Crème Fraîche', 'Organic Egg', 'Buckwheat Blinis'],
