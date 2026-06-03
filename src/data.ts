@@ -72,6 +72,20 @@ export const DISHES: Dish[] = [
     prepTime: '30 mins',
     calories: 550
   },
+   {
+    id: 'main-6',
+    name: 'Burritos',
+    description: 'creamy Roll',
+    price: 135,
+    category: 'mains',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.Szyf1is2FPD70zAW8TeadAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', // lobster styled
+    tags: ['Classic', 'Tableside Play'],
+    rating: 4.9,
+    ingredients: ['Brittany Blue Lobster', 'Cognac VSOP', 'Coral Butter', 'Sea Asparagus'],
+    winePairing: 'Coche-Dury Meursault Les Rougeots 2016',
+    prepTime: '30 mins',
+    calories: 550
+  },
   {
     id: 'main-3',
     name: 'Roasted Challans Duck Brest',
