@@ -32,11 +32,11 @@ export const DISHES: Dish[] = [
   },
   {
     id: 'starter-3',
-    name: 'Hokkaido Scallops Tartare',
+    name: 'PIZZA MAGHERITA',
     description: 'Knife-cut raw sea scallops dressed with white truffle oil, finger lime pearls, radish shavings, and edible gold leaf.',
     price: 38,
     category: 'starters',
-    image: 'https://images.unsplash.com/photo-1532636875304-0c8fe119ff91?q=80&w=600&auto=format&fit=crop',
+    image: 'https://cookingitalians.com/wp-content/uploads/2024/11/Margherita-Pizza.jpg',
     tags: ['Signature', 'Gluten-Free', 'Raw'],
     rating: 4.7,
     ingredients: ['Hokkaido Scallops', 'White Truffle', 'Finger Lime', 'Gold Leaf'],
@@ -60,11 +60,11 @@ export const DISHES: Dish[] = [
   },
   {
     id: 'main-2',
-    name: 'L\'Homard de Bretagne Flambé',
-    description: 'Whole Brittany blue lobster, oven-roasted and flambéed at tableside with Cognac, served with buttered coral foam.',
+    name: 'Alfredo pasta full sauce',
+    description: 'Creamy pasta made with butter, parmesan cheese, and rich white sauce..',
     price: 135,
     category: 'mains',
-    image: 'https://images.unsplash.com/photo-1559742811-82410b5103a1?q=80&w=600&auto=format&fit=crop', // lobster styled
+    image: 'https://tse2.mm.bing.net/th/id/OIP.aKqRsw20tfTtzGUyApIPOgHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', // lobster styled
     tags: ['Classic', 'Tableside Play'],
     rating: 4.9,
     ingredients: ['Brittany Blue Lobster', 'Cognac VSOP', 'Coral Butter', 'Sea Asparagus'],
